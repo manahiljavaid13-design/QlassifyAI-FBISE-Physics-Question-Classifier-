@@ -29,7 +29,7 @@ load_css()
 # MODEL
 # ---------------------
 
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb")
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 # ---------------------
@@ -86,7 +86,7 @@ st.divider()
 
 question = st.text_area(
     "Physics Question",
-    placeholder="Enter a physics question..."
+    placeholder="e.g "Compare longitudinal and transverse waves"
 )
 
 # ---------------------
