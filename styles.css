@@ -1,0 +1,64 @@
+/* Main app */
+.stApp {
+    background-color: #111827;
+}
+
+/* Reduce top spacing */
+.block-container {
+    padding-top: 2rem;
+    max-width: 1000px;
+}
+
+/* Text area */
+.stTextArea textarea {
+    background-color: #1F2937 !important;
+    color: #F9FAFB !important;
+    border-radius: 12px !important;
+    border: 1px solid #374151 !important;
+    padding: 12px !important;
+}
+
+/* Button */
+div.stButton > button {
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4A7C2F;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+div.stButton > button:hover {
+    background-color: #5d963c;
+    transform: translateY(-2px);
+}
+
+/* Result Card */
+.result-card {
+    background-color: #1F2937;
+    border-radius: 16px;
+    padding: 25px;
+    margin-top: 20px;
+    border-left: 5px solid #4A7C2F;
+}
+
+/* Chapter badge */
+.chapter-badge {
+    display: inline-block;
+    background-color: #374151;
+    color: #F9FAFB;
+    padding: 6px 12px;
+    border-radius: 999px;
+    margin: 4px;
+    font-size: 12px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: #9CA3AF;
+    margin-top: 50px;
+    font-size: 14px;
+}
