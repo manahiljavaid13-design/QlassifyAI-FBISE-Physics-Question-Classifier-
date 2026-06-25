@@ -86,7 +86,7 @@ st.divider()
 
 question = st.text_area(
     "Physics Question",
-    placeholder="e.g "Compare longitudinal and transverse waves""
+    placeholder="e.g Compare longitudinal and transverse waves"
 )
 
 # ---------------------
